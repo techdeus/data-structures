@@ -26,4 +26,4 @@ Stack.prototype.pop = function() {
 
 Stack.prototype.size = function() {
   return this.count < 0 ? 0 : this.count;
-} 
+}
