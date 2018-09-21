@@ -19,7 +19,7 @@ treeMethods.contains = function(target) {
   var target = target;
   var node = this;
 
-  function explore(node) {
+  var explore = function(node) {
     if (node.value === target) {
     	return true;
     }
